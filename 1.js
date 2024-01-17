@@ -8,8 +8,8 @@
 который получаем от функции, в консоль.
 */
 
-// function cubeNumber (number) {
-//     return number ** 3
-// }
+function cubeNumber (number) {
+    return number ** 3
+}
 
-// console.log(cubeNumber(2));
+console.log(cubeNumber(2));

@@ -9,14 +9,14 @@
 сообщение "Размер заработной платы за вычетом налогов равен N."
 */
 
-// const salary = +prompt('Введите размер своей заработной платы(число): ');
+const salary = +prompt('Введите размер своей заработной платы(число): ');
 
-// function leftSalary (defaultSalary) {
-//     console.log(`Размер заработной платы за вычетом налогов равен ${defaultSalary * 0.87}.`);
-// }
+function leftSalary (defaultSalary) {
+    console.log(`Размер заработной платы за вычетом налогов равен ${defaultSalary * 0.87}.`);
+}
 
-// if (Number.isNaN(salary)) {
-//     console.log('Значение задано неверно.');
-// } else {
-//     leftSalary(salary);
-// }
+if (Number.isNaN(salary)) {
+    console.log('Значение задано неверно.');
+} else {
+    leftSalary(salary);
+}
