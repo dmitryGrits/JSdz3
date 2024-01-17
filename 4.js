@@ -18,4 +18,28 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
 Демонстрировать работы функций не обязательно.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+function sumNumber (firstNumber, secondNumber) {
+    return firstNumber + secondNumber
+}
+
+function diffNumber (firstNumber, secondNumber) {
+    if (firstNumber > secondNumber) {
+        return firstNumber - secondNumber
+    } else {
+        return secondNumber - firstNumber
+    }
+}
+
+function multNumber (firstNumber, secondNumber) {
+    return firstNumber * secondNumber
+}
+
+function divNumber (firstNumber, secondNumber) {
+    return firstNumber / secondNumber
+}
+
+
+// console.log(sumNumber(2,6));
+// console.log(diffNumber(2,6));
+// console.log(multNumber(2,6));
+// console.log(divNumber(2,6));

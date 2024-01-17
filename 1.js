@@ -8,4 +8,8 @@
 который получаем от функции, в консоль.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+function cubeNumber (number) {
+    return number ** 3
+}
+
+console.log(cubeNumber(2));
